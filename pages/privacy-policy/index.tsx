@@ -1,10 +1,10 @@
+import { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import * as React from "react";
 
 interface PrivacyPolicyProps {}
 
-const PrivacyPolicy: React.FC<PrivacyPolicyProps> = () => {
+const PrivacyPolicy: NextPage<PrivacyPolicyProps> = () => {
   return (
     <>
       <Head>

@@ -1,12 +1,13 @@
 .btn {
   border-radius: 5px;
-  padding: .4rem 1.6rem;
+  padding: 1.5rem 3rem;
   font-size: var(--fs-500);
+  cursor: pointer;
 
   @include respond(mobile-xl) {
     font-size: 1.4rem;
     line-height: 3rem;
-    padding: .2rem 1rem;
+    padding: 1.5rem 3rem;
   }
 
   .left-icon {
@@ -27,6 +28,13 @@
   .right-icon {
     margin-left: 1rem;
 
+    img {
+
+      @include respond(mobile-l) {
+        height: 1.5rem !important;
+      }
+    }
+
     @include respond(mobile-xl) {
       margin-left: .5rem;
     }
@@ -34,6 +42,12 @@
 
   &__primary {
     background-color: var(--color-bg-white);
-    border: 2px solid var(--color-gray-4);
+    border: .2rem solid var(--color-gray-4);
+  }
+
+  &__outline {
+    background-color: var(--color-bg-transparent);
+    border: .18rem solid var(--color-primary-dark);
+    color: var(--color-primary-dark);
   }
 }

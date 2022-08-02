@@ -1,6 +1,10 @@
 .container {
   max-width: var(--container-width);
   margin: 0 auto;
+
+  @include respond(mobile-l) {
+    max-width: 90vw;
+  }
 }
 
 .row {

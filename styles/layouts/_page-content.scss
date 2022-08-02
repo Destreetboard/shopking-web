@@ -11,23 +11,20 @@
   .section {
     padding: 10rem 0;
 
-    @include respond(laptop-l) {
-      padding: 10rem 5rem;
-    }
-
     img {
       // width: 80% !important;
       // height: 80% !important;
 
       @include respond(tablet-port) {
         display: none !important;
-        background-color: red;
       }
     }
 
     li {
-      list-style-image: url(../../public/svgs/list-icon.svg);
-      list-style-position: inside;
+      background: url(../../public/icons/list-icon.svg) no-repeat left center;
+      list-style-position: outside;
+      vertical-align: middle;
+      padding: .5rem 5rem;
     }
   }
 }

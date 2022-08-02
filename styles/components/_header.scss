@@ -4,7 +4,6 @@
   align-items: center;
   padding: 4rem 0;
   width: var(--container-width);
-  // width: 100%;
   top: 0;
   position: absolute;
 
@@ -12,23 +11,19 @@
     display: block;
   }
 
-  @include respond(laptop-l) {
-    padding: 4rem 5rem;
-  }
-
-
   &__right {
-    display: flex;
-    justify-content: flex-end;
+    text-align: right;
+    // display: block;
 
     @include respond(laptop-s) {
-      justify-content: center;
+      text-align: center;
     }
   }
 
   &__left {
     display: flex;
     justify-content: flex-start;
+    cursor: pointer;
 
     @include respond(laptop-s) {
       justify-content: center;

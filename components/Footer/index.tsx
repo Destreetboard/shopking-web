@@ -9,7 +9,7 @@ const Footer: React.FC<FooterProps> = () => {
     <div className="footer">
       <div className="spacer" />
       <div className="container row">
-        <div className="col-4">
+        <div className="col-4 pr-2  mb-2">
           <Link href="/">
             <Image
               className="logo"
@@ -24,7 +24,7 @@ const Footer: React.FC<FooterProps> = () => {
             shopping experience.
           </p>
         </div>
-        <div className="col-2">
+        <div className="col-2 pr-2  mb-2">
           <h2 className="mb-2">Quick Links</h2>
           <ul>
             <li>
@@ -34,11 +34,11 @@ const Footer: React.FC<FooterProps> = () => {
               <Link href="/privacy-policy">Privacy Policy</Link>
             </li>
             <li>
-              <Link href="/">Terms of Service</Link>
+              <Link href="/terms-and-conditions">Terms of Service</Link>
             </li>
           </ul>
         </div>
-        <div className="col-3">
+        <div className="col-3 pr-2 mb-2">
           <h2 className="mb-2">Products</h2>
           <ul>
             <li>
@@ -54,7 +54,7 @@ const Footer: React.FC<FooterProps> = () => {
             </li>
           </ul>
         </div>
-        <div className="col-3">
+        <div className="col-3  mb-2">
           <h2 className="mb-2">Contact Info</h2>
           <ul>
             <li>

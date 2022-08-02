@@ -9,12 +9,18 @@
   --color-primary-dark: hsl(160, 91%, 25%);
   --color-primary-light: hsl(160, 90%, 32%);
 
+  // Transparent Colors
+  --color-primary-dark-transparent: hsla(160, 91%, 25%, 80%);
+  --color-primary-light-transparent: hsla(160, 90%, 32%, 17%);
+  --color-primary-blur-transparent: hsla(160, 90%, 92%, 40%);
+
   // Gray Colors
   --color-gray-1: hsl(0, 0%, 20%);
   --color-gray-2: hsl(0, 0%, 31%);
   --color-gray-3: hsl(0, 0%, 51%);
   --color-gray-4: hsl(0, 0%, 71%);
   --color-gray-5: hsl(0, 0%, 95%);
+  --color-gray-6: hsl(0, 0%, 88%);
 
   // Background Colors
   --color-bg-white: hsl(0, 0%, 100%);
@@ -40,7 +46,7 @@
 
   --fs-hd-900: 5.6rem;
   --fs-hd-800: 4rem;
-  --fs-hd-700: 3.2rem;
+  --fs-hd-700: 3rem;
   --fs-hd-600: 2.4rem;
   --fs-hd-500: 2rem;
   --fs-hd-400: 1.8rem;
@@ -70,5 +76,5 @@
   --fw-900: 900;
 
   // Conainer 
-  --container-width: 90vw;
+  --container-width: 80vw;
 }
