@@ -13,10 +13,18 @@
 
   &__right {
     text-align: right;
-    // display: block;
 
     @include respond(laptop-s) {
       text-align: center;
+    }
+
+    @include respond(mobile-l) {
+
+      a {
+        display: block;
+        margin: 1rem 0;
+        padding: .5rem 4rem;
+      }
     }
   }
 

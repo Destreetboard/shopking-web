@@ -63,19 +63,15 @@
       }
 
       @include respond(mobile-l) {
-        font-size: var(--fs-hd-700);
-        line-height: 4.5rem;
-      }
-
-      @include respond(viewport-h) {
-        font-size: 9rem;
-        line-height: 10rem;
+        font-size: var(--fs-hd-600);
+        line-height: 3.5rem;
       }
     }
 
     .sub-heading {
       font-size: var(--fs-hd-700);
       line-height: 5rem;
+
 
       @include respond(laptop-s) {
         font-size: var(--fs-hd-600);
@@ -98,7 +94,6 @@
         font-size: var(--fs-hd-400);
         line-height: 3rem;
       }
-
     }
 
 

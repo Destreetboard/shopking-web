@@ -6,6 +6,8 @@ interface ButtonProps {
   rightIcon?: React.ReactElement;
   leftIcon?: React.ReactElement;
   className?: string;
+  href?: string;
+  target?: "__blank";
 }
 
 const Button: React.FC<ButtonProps> = ({
