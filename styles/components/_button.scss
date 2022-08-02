@@ -3,12 +3,33 @@
   padding: .4rem 1.6rem;
   font-size: var(--fs-500);
 
+  @include respond(mobile-xl) {
+    font-size: 1.4rem;
+    line-height: 3rem;
+    padding: .2rem 1rem;
+  }
+
   .left-icon {
     margin-right: 1rem;
+
+    img {
+
+      @include respond(mobile-l) {
+        height: 1.5rem !important;
+      }
+    }
+
+    @include respond(mobile-l) {
+      margin-right: .5rem;
+    }
   }
 
   .right-icon {
     margin-left: 1rem;
+
+    @include respond(mobile-xl) {
+      margin-left: .5rem;
+    }
   }
 
   &__primary {

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import * as React from "react";
 
 interface PrivacyPolicyProps {}
@@ -22,7 +23,12 @@ const PrivacyPolicy: React.FC<PrivacyPolicyProps> = () => {
             regarding our privacy practices with respect to our services.`}
             </p>
           </div>
-          <div className="col-6"></div>
+          <div className="col-6 text--right">
+            <Image
+              alt="privacy policy shield"
+              src={require("../../public/svgs/privacy-shield.svg")}
+            />
+          </div>
         </div>
 
         <div className="divider" />

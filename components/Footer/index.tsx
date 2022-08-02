@@ -10,11 +10,13 @@ const Footer: React.FC<FooterProps> = () => {
       <div className="spacer" />
       <div className="container row">
         <div className="col-4">
-          <Image
-            className="logo"
-            alt="shopking logo"
-            src={require("/public/images/logo.png")}
-          />
+          <Link href="/">
+            <Image
+              className="logo"
+              alt="shopking logo"
+              src={require("/public/images/logo.png")}
+            />
+          </Link>
           <p>
             Shopking is a mobile app developed by destreetboard technologies to
             help shop and deliver quality products for its users. Thereby giving
@@ -40,7 +42,7 @@ const Footer: React.FC<FooterProps> = () => {
           <h2 className="mb-2">Products</h2>
           <ul>
             <li>
-              <Link href="/">Destreetboard</Link>
+              <Link href="https://destreetboard.com">Destreetboard</Link>
             </li>
             <li>
               <Link href="/">Rodicash</Link>
@@ -56,22 +58,22 @@ const Footer: React.FC<FooterProps> = () => {
           <h2 className="mb-2">Contact Info</h2>
           <ul>
             <li>
-              <Link href="/">
+              <Link href="https://goo.gl/maps/5A3dyTB7KpJn6zuP7">
                 28 Edinburgh Rd, Ogui New Layout, 400252, Enugu.
               </Link>
             </li>
             <li>
-              <Link href="/">+234 806 890 7632</Link>
+              <Link href="https://wa.me/+2348068907632">+234 806 890 7632</Link>
             </li>
             <li>
-              <Link href="/">support@shopking.ng</Link>
+              <Link href="mailto:support@shopking.ng">support@shopking.ng</Link>
             </li>
           </ul>
         </div>
       </div>
 
       <div className="credit">
-        <p>2020-2022 Shopking. All Rights Reserved.</p>
+        <p>&copy; 2020-2022 Shopking. All Rights Reserved.</p>
       </div>
     </div>
   );

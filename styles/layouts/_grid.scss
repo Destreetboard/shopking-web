@@ -10,6 +10,10 @@
 
 [class^="col-"] {
   display: block;
+
+  @include respond(tablet-port) {
+    width: 100% !important;
+  }
 }
 
 .col-12 {

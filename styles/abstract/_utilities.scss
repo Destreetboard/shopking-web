@@ -81,4 +81,12 @@
   &--bold {
     font-weight: 900;
   }
+
+  &--right {
+    text-align: right;
+
+    @include respond(tablet-port) {
+      text-align: center !important;
+    }
+  }
 }

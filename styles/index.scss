@@ -34,7 +34,16 @@ a:hover,
 a:visited,
 a:link {
   text-decoration: none;
+}
+
+a,
+a:visited,
+a:link {
   color: var(--color-text-body);
+}
+
+a:hover {
+  color: var(--color-primary-light);
 }
 
 ul,

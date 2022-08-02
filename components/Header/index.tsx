@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "../ui";
 
 interface HeaderProps {}
@@ -7,14 +8,16 @@ const Header: React.FC<HeaderProps> = () => {
   return (
     <div className="container">
       <div className="header">
-        <div className="header__left col-6">
-          <Image
-            className="logo"
-            alt="shopking logo"
-            src={require("/public/images/logo.png")}
-          />
+        <div className="header__left">
+          <Link href="/">
+            <Image
+              className="logo"
+              alt="shopking logo"
+              src={require("/public/images/logo.png")}
+            />
+          </Link>
         </div>
-        <div className="header__right col-6">
+        <div className="header__right">
           <Button
             className="mr-1"
             leftIcon={
