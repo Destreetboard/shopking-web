@@ -1,0 +1,45 @@
+@import './fonts.scss';
+@import './abstract/mixins';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 9px;
+}
+
+body {
+  font-size: 2rem;
+  font-family: 'Lato';
+  font-weight: 400;
+  color: var(--color-text-body);
+  line-height: 3.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 900;
+  color: var(--color-text-title);
+}
+
+a,
+a:hover,
+a:visited,
+a:link {
+  text-decoration: none;
+  color: var(--color-text-body);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@import './main.scss';

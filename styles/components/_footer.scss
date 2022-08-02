@@ -1,0 +1,36 @@
+.footer {
+
+  [class^='col-'] {
+    padding: 2rem;
+  }
+
+  li {
+    // display: flex;
+    justify-content: space-between;
+
+    .badge {
+      color: var(--color-danger-1);
+      font-size: 1rem;
+      background-color: var(--color-bg-white);
+      box-shadow: 0 2px 3px var(--color-gray-4);
+      padding: .4rem 1rem;
+      border-radius: .5rem;
+      margin-left: 1.5rem;
+    }
+  }
+
+  .spacer {
+    background-color: var(--color-bg-primary);
+    height: 20rem;
+    margin-bottom: 5rem;
+    width: 100%;
+  }
+
+  .credit {
+    display: flex;
+    justify-content: center;
+    color: var(--color-primary-dark);
+    margin: 5rem 0;
+  }
+
+}
