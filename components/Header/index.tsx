@@ -20,7 +20,7 @@ const Header: React.FC<HeaderProps> = () => {
         <div className="header__right">
           <Button
             target="__blank"
-            href="https://apps.apple.com/ng/app/shopking/id1611047994"
+            href="http://onelink.to/sdk7u4"
             className="mr-1"
             leftIcon={
               <Image

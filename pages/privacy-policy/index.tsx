@@ -8,7 +8,19 @@ const PrivacyPolicy: NextPage<PrivacyPolicyProps> = () => {
   return (
     <>
       <Head>
-        <title>Privacy Policy - Shopking, Shopping Errand Serices</title>
+        <title>
+          Privacy Policy - Shopking, Take Your Shopping Experience To The Next
+          Level.
+        </title>
+        <meta
+          name="description"
+          content="With Shopking, you can be sure to focus on important things that matters most while we do the shopping/errands for you."
+        />
+        <meta
+          name="keywords"
+          content="shopking, shopping, errands, shopping services, delivery, best delivery services, shopking services, shopking.ng"
+        />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="page-content">
@@ -26,7 +38,7 @@ const PrivacyPolicy: NextPage<PrivacyPolicyProps> = () => {
           <div className="col-6 text--right">
             <Image
               alt="privacy policy shield"
-              src={require("../../public/svgs/privacy-shield.svg")}
+              src={require("/public/svgs/privacy-shield.svg")}
             />
           </div>
         </div>
