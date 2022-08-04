@@ -21,7 +21,7 @@ const MetaTags: React.FC<MetaTagsProps> = ({
   const defaultDescription =
     "With Shopking, you can be sure to focus on important things that matters to you while We do your shopping /errands. We bring luxury to you!";
   const defaulltUrl = "https://shopking.ng/";
-  const defaultImage = "/public/images/icon.png";
+  const defaultImage = "/public/images/thumbnail.jpg";
 
   return (
     <>
@@ -44,6 +44,8 @@ const MetaTags: React.FC<MetaTagsProps> = ({
           content={description ?? defaultDescription}
         />
         <meta property="og:image" content={image ?? defaultImage} />
+        <meta property="og:image:width" content="600" />
+        <meta property="og:image:height" content="600" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={url ?? defaulltUrl} />
