@@ -1,27 +1,14 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import MetaTags from "../../components/MetaTags";
 
 interface PrivacyPolicyProps {}
 
 const PrivacyPolicy: NextPage<PrivacyPolicyProps> = () => {
   return (
     <>
-      <Head>
-        <title>
-          Privacy Policy - Shopking, Take Your Shopping Experience To The Next
-          Level.
-        </title>
-        <meta
-          name="description"
-          content="With Shopking, you can be sure to focus on important things that matters most while we do the shopping/errands for you."
-        />
-        <meta
-          name="keywords"
-          content="shopking, shopping, errands, shopping services, delivery, best delivery services, shopking services, shopking.ng"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <MetaTags title="Privacy Policy" />
 
       <div className="page-content">
         <div className="row section container">
