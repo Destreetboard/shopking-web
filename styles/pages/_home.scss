@@ -46,6 +46,12 @@
       font-size: var(--fs-hd-900);
       line-height: 7.5rem;
 
+      @include typed("Take Your Shopping Experience To The Next Level...",
+        "Shopking Expands Your Life And Limits Your Spending.",
+        "Life Is Sweeter And Easier When You Use Shopking😁",
+        "Stay Where You are\AShop Everywhere else!",
+        1.5, (caret-width: .5rem));
+
       @include respond(laptop-s) {
         font-size: var(--fs-hd-800);
         line-height: 6rem;
