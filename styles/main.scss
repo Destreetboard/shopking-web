@@ -1,6 +1,9 @@
 @import './abstract/variables';
 @import './abstract/mixins';
 
+// Includes
+@import './includes/typed';
+
 // Components
 @import './components/button';
 @import './components/header';
@@ -13,5 +16,5 @@
 // Pages
 @import './pages/home';
 
-
+// Abstract
 @import './abstract/utilities';

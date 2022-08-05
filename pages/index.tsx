@@ -14,7 +14,7 @@ const Home: NextPage = () => {
             <div className="row">
               <div className="col-6 home__hero-content">
                 <h1 className="heading mb-2">
-                  Take Your Shopping Experience To The Next Level..
+                  {/* Take Your Shopping Experience To The Next Level.. */}
                 </h1>
                 <p className="sub-heading">
                   With Shopking, you can be sure to focus on important things
