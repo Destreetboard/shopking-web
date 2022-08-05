@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import Script from "next/script";
 import MetaTags from "../components/MetaTags";
 import * as UI from "../components/ui";
 
@@ -22,7 +23,7 @@ const Home: NextPage = () => {
                   bring luxury to you!
                 </p>
               </div>
-              <div className="col-6 text--right">
+              <div className="col-6 text--right animate__animated animate__fadeInUp wow">
                 <Image
                   alt="Create Shopping List"
                   src={require("/public/svgs/home-hero.svg")}
@@ -30,8 +31,10 @@ const Home: NextPage = () => {
                 />
               </div>
             </div>
-            <p className="mb-1 mt-3">Backed By</p>
-            <div className="backed">
+            <p className="mb-1 mt-3 animate__animated animate__bounceInLeft wow">
+              Backed By
+            </p>
+            <div className="backed animate__animated animate__bounceInLeft wow">
               <div>
                 <Image
                   alt="destreetboard logo"
@@ -54,7 +57,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <section className="home__features container">
-          <div className="home__features-scroll mb-2">
+          <div className="home__features-scroll mb-2 animate__animated animate__pulse animate__infinite wow">
             <button className="scroll-button">
               <Image
                 src={require("/public/icons/arrow-down.svg")}
@@ -63,7 +66,7 @@ const Home: NextPage = () => {
             </button>
           </div>
           <div className="row">
-            <div className="col-4">
+            <div className="col-4 animate__animated animate__fadeInUp wow">
               <Image
                 src={require("/public/icons/simple-design.svg")}
                 alt="simple design icon"
@@ -75,7 +78,7 @@ const Home: NextPage = () => {
                 anybody using a smart device can place an order without hassle.
               </p>
             </div>
-            <div className="col-4">
+            <div className="col-4 animate__animated animate__fadeInUp animate__delay-1s wow">
               <Image
                 src={require("/public/icons/security-safe.svg")}
                 alt="security safe icon"
@@ -87,7 +90,7 @@ const Home: NextPage = () => {
                 will never share your data to any third-party.
               </p>
             </div>
-            <div className="col-4">
+            <div className="col-4 animate__animated animate__fadeInUp animate__delay-2s wow">
               <Image
                 src={require("/public/icons/call-calling.svg")}
                 alt="customer support icons"
@@ -103,7 +106,7 @@ const Home: NextPage = () => {
         </section>
         <section className="container home__list">
           <div className="row">
-            <div className="col-6">
+            <div className="col-6 animate__animated wow animate__zoomInDown">
               <Image
                 className="home__list-sample-image"
                 alt="Make a list"
@@ -122,10 +125,16 @@ const Home: NextPage = () => {
                 shopping is covered.
               </p>
               <ul>
-                <li>Get on Google Playstore & Apple Store.</li>
-                <li>Download Shopking on Your Device.</li>
-                <li>Create an Account and Make Your First Shopping List.</li>
-                <li>
+                <li className="animate__animated animate__fadeInUp wow">
+                  Get on Google Playstore & Apple Store.
+                </li>
+                <li className="animate__animated animate__fadeInUp animate__delay-1s wow">
+                  Download Shopking on Your Device.
+                </li>
+                <li className="animate__animated animate__fadeInUp animate__delay-2s wow">
+                  Create an Account and Make Your First Shopping List.
+                </li>
+                <li className="animate__animated animate__fadeInUp animate__delay-3s wow">
                   Get Your Orders Delivered to Your Doorstep Within 24hrs.
                 </li>
               </ul>
@@ -143,11 +152,17 @@ const Home: NextPage = () => {
                 the go!
               </p>
               <ul className="mb-3">
-                <li>Make a list.</li>
-                <li>Create an order.</li>
-                <li>Make Payments.</li>
+                <li className="animate__animated animate__fadeInUp wow">
+                  Make a list.
+                </li>
+                <li className="animate__animated animate__fadeInUp animate__delay-1s wow">
+                  Create an order.
+                </li>
+                <li className="animate__animated animate__fadeInUp animate__delay-2s wow">
+                  Make Payments.
+                </li>
               </ul>
-              <span className="ellipse-bg">
+              <span className="ellipse-bg animate__animated animate__pulse animate__slower animate__infinite wow">
                 <Image
                   alt="ellipse"
                   src={require("/public/svgs/ellipse.svg")}
@@ -155,6 +170,7 @@ const Home: NextPage = () => {
               </span>
 
               <UI.Button
+                className="animate__animated animate__bounceIn animate__delay-3s wow"
                 type="outline"
                 rightIcon={
                   <Image
@@ -169,7 +185,7 @@ const Home: NextPage = () => {
               </UI.Button>
             </div>
 
-            <div className="col-6 text--right">
+            <div className="col-6 text--right animate__zoomIn animate__animated wow">
               <Image
                 className="home__list-sample-image"
                 alt="Shop Everywhere Else"
