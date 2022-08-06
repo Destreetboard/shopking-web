@@ -106,7 +106,7 @@ const Home: NextPage = () => {
         </section>
         <section className="container home__list">
           <div className="row">
-            <div className="col-6 animate__animated wow animate__zoomInDown">
+            <div className="col-6">
               <Image
                 className="home__list-sample-image"
                 alt="Make a list"
@@ -185,7 +185,7 @@ const Home: NextPage = () => {
               </UI.Button>
             </div>
 
-            <div className="col-6 text--right animate__zoomIn animate__animated wow">
+            <div className="col-6 text--right">
               <Image
                 className="home__list-sample-image"
                 alt="Shop Everywhere Else"
