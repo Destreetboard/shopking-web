@@ -3,11 +3,17 @@
   padding: 1.5rem 3rem;
   font-size: var(--fs-500);
   cursor: pointer;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    background-color: var(--color-bg-primary);
+    box-shadow: 1px 1px 2px var(--color-gray-4);
+  }
 
   @include respond(mobile-xl) {
     font-size: 1.4rem;
     line-height: 3rem;
-    padding: 1.5rem 3rem;
+    padding: 1rem 3rem !important;
   }
 
   .left-icon {
