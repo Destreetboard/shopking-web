@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <MainLayout>
         <>
-          {isLoading && <PreLoader />}
+          {/* {isLoading && <PreLoader />} */}
           <Component {...pageProps} />
         </>
       </MainLayout>
